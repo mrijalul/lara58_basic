@@ -1,35 +1,37 @@
-# Project Title
+# Laravel 5.8 BASIC
 
-One Paragraph of project description goes here
+belajar laravel basic
 
-## Getting Started
+### permulaan
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+buka terminal/cmd arahkan ke folder xampp/htdocs
 
 ```
-Give examples
+git clone git@github.com:mrijalul/lara58_basic.git
 ```
 
-### Installing
+### copy/duplicate .env.example to .env
 
-A step by step series of examples that tell you how to get a development env running
+silahkan di copy/duplikat file .env.example jadi .env
 
-Say what the step will be
+### setting database
+silahkan diisi dibagian 
+```
+DB_DATABASE=nama_database
+DB_USERNAME=username_database(default root)
+DB_PASSWORD=password_database(default kosongan)
+```
+### di cmd/terminal
+silahkan jalankan key:generate
 
 ```
-Give the example
+php artisan key:generate
 ```
-
-And repeat
+maka akan muncul tulisan
 
 ```
-until finished
+Application key set successfully.
 ```
-
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
